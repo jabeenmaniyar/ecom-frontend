@@ -1,5 +1,5 @@
 const API_URL = "https://kle-com-backend.onrender.com";
-p://
+
 export async function addToCart(product) {
   const response = await fetch(`${API_URL}/cart/add`, {
     method: "POST",
